@@ -445,18 +445,20 @@
             
             .container__address{
                 display: flex;  
-                flex-direction: row;
+                flex-direction: column;
                 justify-content: space-between;
                 gap: 50px;
                 font-size: 1.2rem;
                 color: whitesmoke;
                 
+                
             }
 
             .container__social{
-             display: flex;
-               justify-content: space-around;
-               gap: 25px;
+                display: flex;
+               
+                justify-content: space-around;
+                gap: 25px;
 
                 picture  img {
                     width: 40px;
@@ -687,7 +689,7 @@
 
 
 .card__img {
-    width: 100%;
+    width: 100px;
     height: auto;
     padding: 50px;
     margin-bottom: -100px;
@@ -866,6 +868,16 @@
                     justify-content: space-around;
                     font-size: 1.2rem;
                     color: whitesmoke;
+
+                    ul{
+                        display: flex;
+                        flex-direction: column;
+                        
+
+                        h4{
+                            font-size: 1.8rem;
+                        }
+                    }
                     
                 }
     
@@ -1046,7 +1058,7 @@
     
     
     .card__img {
-        width: 100%;
+        width: 100px;
         height: auto;
         padding: 50px;
         margin-bottom: -100px;
@@ -1200,7 +1212,7 @@
                 width: 100%;
                 display:flex;
                 justify-content: center;
-                flex-direction: column;
+                flex-direction: row;
                 align-items: center;
                 
                 .footer__container{
@@ -1234,9 +1246,20 @@
                         .container__address{
                             display: flex;  
                             flex-direction: column;
-                            justify-content: space-around;
+                            justify-content: space-between;
                             font-size: 1.2rem;
                             color: whitesmoke;
+
+                            ul{
+                                display: flex;
+                                flex-direction: column;
+                                
+                                h4{
+                                    font-size: 1.8rem;
+                                }
+                            
+                            }
+
                             
                         }
             
